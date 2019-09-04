@@ -6,6 +6,9 @@ Automatic sleep classification for healthy and clinical population based on brai
 ## References
 https://doi.org/10.1371/journal.pone.0190458
 
+## Year
+2017
+
 ## Main Functionalities
 [1] *1_nnetwClass.R* load matlab files containing both PE values (input) and sleep staging (target), restructure (i.e: col. naming, pruning, reshaping), leave_sbj_out cross validation + internal cv for hyperparameters, fit Random Forest or SVM, compute F1 score, plot prediction against true staging for each healthy subject, save trained model (later used for DOC).
 <br> [2] *3_sleeepInDocMain.R* Prepare DOC data for clustering: sampling, incorporating diagnosis (VS vs MCS), splitting into day/night, saving.
