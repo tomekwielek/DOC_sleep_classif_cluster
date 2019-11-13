@@ -1,7 +1,7 @@
 # DOC_sleep_classif_cluster
 
 ## Overview 
-Automatic sleep classification for healthy and clinical population based on brain and body signal (PSG). The goal is to train classifier on helthy sleep data and ultimately test on DOC subjects (Disorders of Consciousness) where the standard sleep scoring is ultimately difficult. Input for the classifer is Permutation Entropy values (signal complexity, Band&Pompe,2002) computed for 30s segments over 26 EEG/PSG channels. In addition to supervised classifcation we perform unsupervised hierarchical clustering analysis. The generalization for DOC is validated through videos and eyes open/closed informaiton.
+Automatic sleep classification for healthy and clinical population based on brain and body signal (PSG). The approach is to train classifier on helthy sleep data and ultimately test on DOC subjects (Disorders of Consciousness). The goal is to automatize sleep scoring for DOC where the standard sleep scoring is particularly difficult for a human scorer. Input for the classifer is Permutation Entropy values (signal complexity, Band&Pompe,2002) computed for 30s segments over 26 EEG/PSG channels. In addition to supervised classifcation we perform unsupervised hierarchical clustering analysis. The generalization for DOC is validated through videos and eyes open/closed informaiton.
 
 ## References
 https://doi.org/10.1371/journal.pone.0190458
